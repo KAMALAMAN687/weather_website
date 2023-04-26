@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather : Know your area wheather and plan your day.</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/aa253b3ee5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="main">
+        <video src="./assets/pexels-oleg-gamulinskii-2697038-3840x2160-30fps.mp4" muted loop autoplay ></video>
+        <nav>
+            <div class="logo-name"><h1>Wheather.</h1></div>
+            <div class="list-section">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#wht">Search</a></li>
+                    <li><a href="#">More</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="time-div">
+            <h1 class="time">00 <span>00</span></h1>
+            <p class="date">Sunday</p>
+        </div>
+
+        <div class="landing-cont">
+             <div class="content">
+                <h1 class="change">Check <span class="auto-typed"></span> </h1>
+                <h1 class="greet">HELLO,<span>THERE</span> </h1>
+                <p>I Hope You're Good.</p>
+                <button><a href="#wht"><i class="fa-solid fa-arrow-right"></i></a></button>
+             </div>
+             <div class="image-slider">
+                <img src="https://images.pexels.com/photos/5821029/pexels-photo-5821029.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" class="images " alt="">
+                <img src="https://images.pexels.com/photos/15801862/pexels-photo-15801862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="images "alt="">
+                <img src="https://images.pexels.com/photos/15621851/pexels-photo-15621851.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"class="images" alt="">
+                <img src="https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="images"alt="">
+                <img src="https://images.pexels.com/photos/3214944/pexels-photo-3214944.jpeg?auto=compress&cs=tinysrgb&w=1600" class="images" alt="">
+
+             </div>
+        </div>
+    </div>
+
+<!-- search-section -->
+    <div id="wht" class="section">
+        <video class="wheathervideo"
+            src="https://player.vimeo.com/external/480223896.sd.mp4?s=4322c1e7b0c2863237d0ba6bdba8d92c387e1981&profile_id=164&oauth2_token_id=57447761"
+            autoplay muted loop></video>
+        <div class="header">
+            
+            <div class="search-box">
+                <input  class="input" type="text" placeholder="Enter Your City Name">
+                 <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="temprature">
+                <div class="temp-content" >
+                    <h1 class="it">It's : </h1>
+                    <h1 class="ac">0<sup>°C</sup></h1>
+                </div>
+
+                <div class="type">
+                    <h1 class="des">Clear</h1>
+                </div>
+            </div>
+            <div class="new-items">
+                <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                    <h1>Wind:</h1>
+                    <p class="winds">45km/hr</p>
+                </div>
+
+
+                <div class="humidity">
+                <img src="./assets/humidity-png-11553951575wbqt7shdo6-removebg-preview.png" alt="">
+                <h1>Humidity:</h1>
+                <p class="humiditys">45%</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
