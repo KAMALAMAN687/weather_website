@@ -53,7 +53,7 @@ videoChange.src="https://player.vimeo.com/external/210744044.sd.mp4?s=2c321f5fb6
         videoChange.src = "https://player.vimeo.com/external/414879100.sd.mp4?s=dbe02aa9b047a22c01279e0b08a546a33179e642&profile_id=164&oauth2_token_id=57447761"
         break;
      case 'Clear' :   
-     videoChange.src ="https://player.vimeo.com/external/394886256.sd.mp4?s=dc31901f37c654dfb49595e207ff8485f9df706b&profile_id=164&oauth2_token_id=57447761"
+     videoChange.src ="https://player.vimeo.com/external/434854822.sd.mp4?s=b7fa3a0513f214a8ddccb1b2269a78b6ff8d9edb&profile_id=164&oauth2_token_id=57447761"
      break;
      case 'Rain':
         videoChange.src ="https://player.vimeo.com/external/451758277.sd.mp4?s=0c858d0b4c3f1d02df64ac5550155c522082d986&profile_id=164&oauth2_token_id=57447761"
